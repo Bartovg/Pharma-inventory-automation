@@ -39,7 +39,7 @@ Un sistema en **Google Apps Script** que:
 * **Cruza pendientes con disponibilidad próxima a vencer** y genera órdenes de traslado entre sedes, cuidando primero el **stock de seguridad** de la sede de origen. Los auxiliares envían las órdenes por correo y cada sede debe responder con evidencia del traslado.
 * **Detecta inventario sin movimiento:** artículos próximos a vencer sin dispensación reciente ni pendientes que los consuman. Es el segmento de mayor riesgo real, porque no tienen ninguna vía natural para rotar antes de vencerse.
 * 
-![Vista general del dashboard](images/dashboard-overview3.png)
+![Vista general del dashboard](images/dashboard-overview4.png)
 
 ![Vista general del dashboard](images/dashboard-overview2.png)
 
@@ -55,7 +55,7 @@ Un sistema en **Google Apps Script** que:
 |Tiempo de gestión semanal|12-15 h antes, 30-40 min ahora|Medir la eficiencia del proceso|
 |Pérdida mensual por vencimiento|Valor monetario de los medicamentos que vencen cada mes|Medir el impacto real: bajó casi un 50%|
 
-![Vista general del dashboard](images/dashboard-overview4.png)
+![Vista general del dashboard](images/dashboard-overview3.png)
 
 ![Vista general del dashboard](images/dashboard-overview.png)
 
