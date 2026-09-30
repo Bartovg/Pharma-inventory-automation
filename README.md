@@ -12,7 +12,6 @@
 
 Soy Referente y Analista de Inventarios en una IPS de salud. Lidero el control de inventario farmacéutico de una red de **18 puntos**: 15 sedes de dispensación, 1 bodega central y 2 puntos de alto costo. Trabajo con 3 auxiliares, cada uno a cargo de un grupo de sedes asignado según tamaño y complejidad operativa (no de forma equitativa por cantidad).
 
-![Vista general del dashboard](images/dashboard-overview.png)
 
 ## 2\. El problema
 
@@ -39,6 +38,8 @@ Un sistema en **Google Apps Script** que:
 * **Clasifica el riesgo de vencimiento** por artículo y sede en cuatro niveles: vencido, crítico, alto y medio.
 * **Cruza pendientes con disponibilidad próxima a vencer** y genera órdenes de traslado entre sedes, cuidando primero el **stock de seguridad** de la sede de origen. Los auxiliares envían las órdenes por correo y cada sede debe responder con evidencia del traslado.
 * **Detecta inventario sin movimiento:** artículos próximos a vencer sin dispensación reciente ni pendientes que los consuman. Es el segmento de mayor riesgo real, porque no tienen ninguna vía natural para rotar antes de vencerse.
+* 
+![Vista general del dashboard](images/dashboard-overview3.png)
 
 ![Vista general del dashboard](images/dashboard-overview2.png)
 
@@ -56,11 +57,13 @@ Un sistema en **Google Apps Script** que:
 
 ![Vista general del dashboard](images/dashboard-overview4.png)
 
+![Vista general del dashboard](images/dashboard-overview.png)
+
 ## 6\. Dashboard
 
 El dashboard en [Looker Studio](https://datastudio.google.com/s/nRbwY9k_qSE) presenta la misma estructura de información que usa el sistema real: dispensas, pendientes, valorizado, próximos a vencer, inventario sin rotación y sugerencias de traslado. Para publicarlo usé un dataset ficticio, de modo que no se expone ningún dato de la organización.
 
-![Vista general del dashboard](images/dashboard-overview3.png)
+
 
 ## 7\. Retos técnicos resueltos
 
